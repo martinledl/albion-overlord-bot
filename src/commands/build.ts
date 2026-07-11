@@ -25,8 +25,8 @@ export async function execute(interaction: any, env: Env): Promise<any> {
 
     // Fallback if something went structurally wrong or choice is missing
     const buildData = BUILD_DATABASE[selectedType] || {
-        title: "Unknown Build Archetype",
-        url: "https://i.imgur.com/ERROR_IMAGE_ID.png"
+        title: "Unknown Build Requested",
+        url: "https://raw.githubusercontent.com/martinledl/albion-overlord-bot/refs/heads/main/assets/error.png"
     };
 
     return {
