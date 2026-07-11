@@ -1,0 +1,8 @@
+{
+	"name": "albion-overlord-bot",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-07-10",
+	"observability": {
+		"enabled": true,
+	},
+}
